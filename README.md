@@ -123,7 +123,7 @@
       stages {
           stage('Clone') {
               steps {
-                  git url: "https://github.com/apurvagargote/Node-todo-cicd.git", branch: "master"
+                  git url: "https://github.com/juhisinha422/node-todo-cicd.git", branch: "master"
               }
           }
           stage('Build') {
